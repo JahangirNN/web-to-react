@@ -1,5 +1,6 @@
 import React from "react";
 
+import SoloCard from "./SoloCard";
 const CardSection = () => (
     <section className="contact bg-success ">
       <div className="container ">
@@ -8,55 +9,13 @@ const CardSection = () => (
         </h2>
         <div className="row">
           <div className="col-4">
-            <div className="card" style={{width: "18rem"}}>
-              <img
-                src="https://images.pexels.com/photos/3532557/pexels-photo-3532557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                className="card-img-top"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-success">Go somewhere</a>
-              </div>
-            </div>
+            <SoloCard title="Spiderman" src="https://images.theconversation.com/files/175539/original/file-20170626-315-1h7k01d.jpg?ixlib=rb-1.1.0&rect=0%2C618%2C3500%2C1697&q=45&auto=format&w=1356&h=668&fit=crop" text="Spider-Man is a superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing Fantasy #15 in the Silver Age of Comic Books."/>
+          </div>  
+          <div className="col-4">
+          <SoloCard title="Spiderman" src="https://images.theconversation.com/files/175539/original/file-20170626-315-1h7k01d.jpg?ixlib=rb-1.1.0&rect=0%2C618%2C3500%2C1697&q=45&auto=format&w=1356&h=668&fit=crop" text="Spider-Man is a superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing Fantasy #15 in the Silver Age of Comic Books."/>
           </div>
           <div className="col-4">
-            <div className="card" style={{width: "18rem"}}>
-              <img
-                src="https://images.pexels.com/photos/3532544/pexels-photo-3532544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                className="card-img-top"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-success">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div className="col-4">
-            <div className="card" style={{width: "18rem"}}>
-              <img
-                src="https://images.pexels.com/photos/2522663/pexels-photo-2522663.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                className="card-img-top"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-success">Go somewhere</a>
-              </div>
-            </div>
+          <SoloCard title="Spiderman" src="https://dam.smashmexico.com.mx/wp-content/uploads/2022/12/spider-man-4-pelicula-actualizacion-sony-pictures-marvel-studios-cover.jpg" text="Spider-Man is a superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing Fantasy #15 in the Silver Age of Comic Books."/>
           </div>
         </div>
       </div>
